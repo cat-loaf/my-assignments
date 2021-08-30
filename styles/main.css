@@ -11,7 +11,7 @@
     margin: 0px;
     padding: 0px;
 
-    transition: all ease-in-out 250ms;
+    /*transition: all ease-in-out 250ms;*/
 
     --dark-part: #262b36;
     --mid-part: #7A93AC;
