@@ -3,3 +3,11 @@
     margin: 3vh;
     height:100vh;
 }
+.fake-page > ul, .fake-page > ol {
+    margin-left:50px;
+}
+.fake-page dd {
+    margin-left: 60px;
+    margin-top:2px;
+    margin-bottom: 10px;
+}
