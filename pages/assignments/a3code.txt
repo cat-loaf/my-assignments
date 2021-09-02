@@ -29,7 +29,7 @@
         Assignment: <span style="font-weight:400">HTML-Lists (#3)</span><br>
         Date: <span style="font-weight:400">09/02/21</span><br>
         Author:<span style="font-weight:400"> Granth J.</span><br><br>
-        <a class="text-button" href="a2.html">⬅️ Previous Page</a>  
+        <a class="text-button" href="a2.html">⬅️Previous Page</a>  
         <a class="text-button" href="a3code.txt" target="_blank">View Code 🔗</a>
         <a class="text-button" href="a3.html">Next Page ➡️</a>  
     </div>
