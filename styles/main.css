@@ -72,7 +72,3 @@ body {
     background-color: var(--mid-part);
 }
 
-.wrap-around-text {
-    display: inline-block;
-    justify-content: center;
-}

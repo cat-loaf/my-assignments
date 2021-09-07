@@ -20,7 +20,107 @@
         <li><a id="contactLink" href="../contact.html">CONTACT</a></li>
     </ul>
 </div>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Assignment #3 - HTML-Lists</title>
+
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/scrollbar.css">
+    <link rel="stylesheet" href="../../styles/assignment.css">
+    <link rel="stylesheet" href="../../styles/content.css">
+
+    <link rel="icon" href="../../img/icon.png">
+    <!--Granth Jain, P3, 9/1/2021 -->
+</head>
+<div class="navbar" id="navigationBar">
+    <ul>
+        <li><img alt="My website logo" id="iconLogo" class="navbarIcon" src="../../img/icon.png"></li>
+        <li><a id="homeLink" href="../../index.html">HOME</a></li>
+        <li><a id="aboutLink" href="../about.html">ABOUT</a></li>
+        <li><a id="contactLink" href="../contact.html">CONTACT</a></li>
+    </ul>
+</div>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="homeSection" style="min-height:1.5vh;">
+        Assignment: <span style="font-weight:400">HTML-Lists (#3)</span><br>
+        Date: <span style="font-weight:400">09/02/21</span><br>
+        Author:<span style="font-weight:400"> Granth J.</span><br><br>
+        <a class="text-button" href="a2.html">⬅️ Previous Page</a>  
+        <a class="text-button" href="a3code.txt" target="_blank">View Code 🔗</a>
+        <a class="text-button" href="a4.html">Next Page ➡️</a>  
+    </div>
+    <div class="fake-page" id="contentSection">
+        <h1>All About Me</h1>
+        <h2>Fall 2021</h2>
+        <br>
+        <hr style="background-color:white; border:1px black solid; height: 1px;">
+        <br>
+        <p>
+            <ol class="fake-page-list">
+                <li>My name is <em>Granth</em>.</li>
+                <li>I am <b>16</b> years old, and I'm a senior in highschool right now <u>(as of 8/30/21)</u>.</li>
+                <li>I enjoy <em><b>coding, drawing, sketching, and writing stories</b></em>.</li>
+                <li>I also enjoy cooking, and learning about new things.</li>
+                <li>I love drinking milk tea (hot <b>OR</b> cold)</li>
+            </ol>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+            <br>
+            <h3>My Favorites</h3>
+            <ul>
+                <li><b>Person:</b> My younger brother</li>
+                <li><b>Place:</b> New York</li>
+                <li><b>Subject:</b> Math</li>
+                <li><b>Food:</b> Grilled Sandwich</li>
+            </ul>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+            <br>
+            <h3>My Top 3 Favorite Foods</h3>
+            <ol>
+                <li>Grilled Sandwich</li>
+                <li>Gyros</li>
+                <li>Chips and Salsa</li>
+            </ol>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+            <br>
+            <h3>My Favorites (Descriptive List)</h3>
+            <dl>
+                <dt><b>Person:</b> My younger brother</dt>
+                <dd>I enjoy playing video games with my brother.</dd>
+
+                <dt><b>Place:</b> New York</dt>
+                <dd>I enjoy the weather there, and I enjoy city(ish) areas.</dd>
+
+                <dt><b>Subject:</b> Math</dt>
+                <dd>I love logic, and I love how numbers come together to fit in a huge design known as math.</dd>
+
+                <dt><b>Food:</b> Grilled Sandwich</dt>
+                <dd>I like grilled vegetables, and I also like grilled bread, so put them together, and you get a grilled sandwich.</dd>
+            </dl>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+        </p>
+        <br>
+        <address>
+            Last Updated: 09/02/21
+        </address>
+    </div>
+    
+</body>
+
+</html>
 <body>
     <br>
     <br>
