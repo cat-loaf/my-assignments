@@ -77,15 +77,10 @@ hr {
 .assignmenthover {
     margin-left:10px;
     margin-right:10px;
+    margin-bottom:10px;
 }
+
 .assignmenthover:hover {
     text-decoration:none;
     
-}
-.assignmenthover * div {
-    animation: assignmentHoverButton 1s forwards;
-}
-
-@keyframes assignmentHoverButton {
-    0% {background-color:red;}
 }
