@@ -37,7 +37,7 @@
         Author:<span style="font-weight:400"> Granth J.</span><br><br>
         <a class="text-button" href="a5.html">⬅️ Previous Page</a>  
         <a class="text-button" href="a6code.txt" target="_blank">View Code 🔗</a>
-        <a class="text-button" href="a6.html">Next Page ➡️</a>  
+        <a class="text-button" href="a7.html">Next Page ➡️</a>  
     </div>
     <div class="fake-page" id="contentSection" style="color:#b91360; font-weight:500;">
         <h1 style="text-align:center; font-family: 'Franklin Gothic', sans-serif; color:#4f4dc4; margin-bottom:30px;">All About Me</h1>
