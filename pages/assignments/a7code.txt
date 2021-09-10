@@ -94,6 +94,9 @@
             </dl>
             <br>
             <hr style="background-color:white; border:1px black solid; height: 1px;">
+        
+            <br>
+            <img src="../../Misc Resources/Logo.jpg" alt="An image with text, 'Web Design' at the center, and different aspects of web design branching out from the central text." style="float:center;">
         </p>
         <br>
         <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#a490d6;">
