@@ -96,13 +96,13 @@
             <hr style="background-color:white; border:1px black solid; height: 1px;">
         
             <br>
-            <h3 style="text-align:center;">
+            <h3 style="text-align:center; padding:20px;">
                 <img src="../../Misc Resources/Logo.jpg" alt="An image with text, 'Web Design' at the center, and different aspects of web design branching out from the central text." >
             </h3>
-            <br><br><br><br><br><br>
+            
         </p>
         <br>
-        <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#a490d6;">
+        <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#3f2d6b;">
             Last Updated &mdash; 09/10/21 &diamondsuit;
         </address>
     </div>
