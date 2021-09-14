@@ -82,3 +82,23 @@ hr {
     text-decoration:none;
     
 }
+
+img.cc {
+    display:block;
+    float:right; 
+    border-radius: 20px;
+}
+div.ccholder {
+    overflow:auto;
+    margin:25px;
+    border:#8bb4e2 1px solid;
+    background: #8bb4e2;
+    padding:25px;
+    border-radius:20px;
+}
+
+.fake-page hr {
+    background-color:white; 
+    border:1px black solid; 
+    height: 1px;
+}
