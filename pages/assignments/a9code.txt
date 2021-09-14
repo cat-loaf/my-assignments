@@ -53,7 +53,7 @@
                 <li>I love drinking milk tea (hot <b>OR</b> cold)</li>
             </ol>
             <br>
-            <hr style="background-color:white; border:1px black solid; height: 1px;">
+            <hr>
 
             <br>
             <h3>My Favorites</h3>
@@ -65,43 +65,46 @@
                 <li><b>Subject:</b> Math </li>
 
                 <li><b>Food:</b> Grilled Sandwich </li>
-            </ul><hr>
+            </ul><br><hr>
 
-            <h3><div class="ccholder">Michael Jackson 
+            <h3><div class="ccholder"><span style="font-size:50px">Michael Jackson</span> 
                 <a href="https://en.wikipedia.org/wiki/Michael_Jackson">
                     <img class="cc" 
                     src="../../img/michealjackson.jpg" 
                     alt="An image of Michael Jackson"
                     title="An image of Michael Jackson, hyperlinked to a wikipedia article">
                 </a>
+                <br><span style="font-weight:500; color:black;">I enjoy listening to his music, it has an energetic feeling to it.</span>
             </div></h3><hr>
-            <h3><div class="ccholder">New York 
+            <h3><div class="ccholder"><span style="font-size:50px">New York</span> 
                 <a href="https://en.wikipedia.org/wiki/New_York_City">
                     <img class="cc" 
                     src="../../img/newyork.jpg" 
                     alt="An image of New York city"
                     title="An image of New York city, hyperlinked to a wikipedia article">
                 </a>
+                <br><span style="font-weight:500; color:black;">I used to live in New York, and I really enjoyed the cold weather and the snow.</span>
             </div></h3><hr>
-            <h3><div class="ccholder">Math 
+            <h3><div class="ccholder"><span style="font-size:50px">Math</span> 
                 <a href="https://en.wikipedia.org/wiki/Mathematics">
                     <img class="cc"
                     src="../../img/math.jpg" 
                     alt="An image of math on a blackboard"
                     title="An image of math on a blackboard, hyperlinked to a wikipedia article">
                 </a>
+                <br><span style="font-weight:500; color:black;">I enjoy doing logic puzzles, and working with numbers, and math is basically both of those.</span>
             </div></h3><hr>
-            <h3><div class="ccholder">Grilled Sandwich 
+            <h3><div class="ccholder"><span style="font-size:50px">Grilled Sandwich</span> 
                 <a href="https://en.wikipedia.org/wiki/Grilled_cheese">
                     <img class="cc" 
                     src="../../img/grilledsandwich.jpg" 
                     alt="An image of a vegetarian grilled sandwich"
                     title="An image of a vegetarian grilled sandwich, hyperlinked to a wikipedia article">
                 </a>
+                <br><span style="font-weight:500; color:black;">I enjoyed the vegetables grilled along with the buttery bread (grilled as well too).</span>
             </div></h3><hr>
             
             <br>
-            <hr style="background-color:white; border:1px black solid; height: 1px;">
 
             <br>
             <h3>My Top 3 Favorite Foods</h3>
