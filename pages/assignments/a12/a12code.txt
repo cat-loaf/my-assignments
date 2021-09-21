@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Assignment #11 - Table (main)</title>
+    <title>Assignment #12 - Relative Links (main)</title>
 
     <meta charset=“UTF-8”>
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
@@ -35,12 +35,12 @@
     <br>
     <br>
     <div class="homeSection" style="min-height:1.5vh;">
-        Assignment: <span style="font-weight:400">Table (#11)</span><br>
-        Date: <span style="font-weight:400">09/15/21</span><br>
+        Assignment: <span style="font-weight:400">Relative Links (#12)</span><br>
+        Date: <span style="font-weight:400">09/21/21</span><br>
         Author:<span style="font-weight:400"> Granth J.</span><br><br>
-        <a class="text-button" href="../a10/a10.html">⬅️ Previous Page</a>  
-        <a class="text-button" href="a11code.txt" target="_blank">View Code 🔗</a>
-        <a class="text-button" href="../a12/a12.html">Next Page ➡️</a>
+        <a class="text-button" href="../a11/a11.html">⬅️ Previous Page</a>  
+        <a class="text-button" href="a12code.txt" target="_blank">View Code 🔗</a>
+        <a class="text-button" href="a12.html">Next Page ➡️</a>
         <a class="text-button" href="school.html" title="school">2️⃣ Second Page</a>    
     </div>
     <div class="fake-page" id="contentSection" style="height:100%; display:inline-block; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color:#a1cee9;color:#b91360; font-weight:500;">
@@ -80,7 +80,14 @@
                     alt="An image of Michael Jackson"
                     title="An image of Michael Jackson, hyperlinked to a wikipedia article">
                 </a>
-                <br><span style="font-weight:500; color:black;">I enjoy listening to his music, it has an energetic feeling to it.</span>
+                
+                <br><span style="font-weight:500; color:black;">
+                    I enjoy listening to his music, it has an energetic feeling to it.
+                    <br><br>
+                    <a style="color:#4141dd; font-weight:600;" 
+                    href="https://en.wikipedia.org/wiki/Michael_Jackson" target="_blank">
+                        To learn more about Michael Jackson, click here.</a>
+                </span>
             </div></h3><hr>
             <h3><div class="ccholder"><span style="font-size:50px">New York</span> 
                 <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">
@@ -89,7 +96,14 @@
                     alt="An image of New York city"
                     title="An image of New York city, hyperlinked to a wikipedia article">
                 </a>
-                <br><span style="font-weight:500; color:black;">I used to live in New York, and I really enjoyed the cold weather and the snow.</span>
+
+                <br><span style="font-weight:500; color:black;"
+                >I used to live in New York, and I really enjoyed the cold weather and the snow.
+            </span>
+                    <br><br>
+                    <a style="color:#4141dd; font-weight:600;" 
+                    href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">
+                        To learn more about New York City, click here.</a>
             </div></h3><hr>
             <h3><div class="ccholder"><span style="font-size:50px">Math</span> 
                 <a href="https://en.wikipedia.org/wiki/Mathematics" target="_blank">
@@ -98,7 +112,13 @@
                     alt="An image of math on a blackboard"
                     title="An image of math on a blackboard, hyperlinked to a wikipedia article">
                 </a>
-                <br><span style="font-weight:500; color:black;">I enjoy doing logic puzzles, and working with numbers, and math is basically both of those.</span>
+                <br><span style="font-weight:500; color:black;">
+                    I enjoy doing logic puzzles, and working with numbers, and math is basically both of those.
+                </span>
+                <br><br>
+                    <a style="color:#4141dd; font-weight:600;" 
+                    href="https://en.wikipedia.org/wiki/Mathematics" target="_blank">
+                        To learn more about Mathematics, click here.</a>
             </div></h3><hr>
             <h3><div class="ccholder"><span style="font-size:50px">Grilled Sandwich</span> 
                 <a href="https://en.wikipedia.org/wiki/Grilled_cheese" target="_blank">
@@ -107,7 +127,13 @@
                     alt="An image of a vegetarian grilled sandwich"
                     title="An image of a vegetarian grilled sandwich, hyperlinked to a wikipedia article">
                 </a>
-                <br><span style="font-weight:500; color:black;">I enjoyed the vegetables grilled along with the buttery bread (grilled as well too).</span>
+                <br><span style="font-weight:500; color:black;">
+                    I enjoyed the vegetables grilled along with the buttery bread (grilled as well too).
+                </span>
+                <br><br>
+                    <a style="color:#4141dd; font-weight:600;" 
+                    href="https://en.wikipedia.org/wiki/Grilled_cheese" target="_blank">
+                        To learn more about the Grilled Sandwich, click here.</a>
             </div></h3><hr>
             
             <br>
@@ -143,7 +169,7 @@
         </p>
         <br>
         <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#3f2d6b;">
-            Last Updated &mdash; 09/15/21 &diamondsuit;
+            Last Updated &mdash; 09/21/21 &diamondsuit;
         </address>
     </div>
     
