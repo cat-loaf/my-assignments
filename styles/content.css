@@ -72,6 +72,7 @@ hr {
     background-color: #4c9be6; 
     border: 2px #4c9be6 solid; 
     border-radius: 12px; 
+    user-select:none;
 }
 
 .assignmenthover {
