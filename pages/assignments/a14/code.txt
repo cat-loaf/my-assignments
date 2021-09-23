@@ -141,7 +141,7 @@
                     title="An image of Michael Jackson, hyperlinked to a wikipedia article">
                 </a>
                 
-                <br><span style="font-weight:500; color:black;">
+                <br><span style="font-weight:500; color:black;" id="mid">
                     I enjoy listening to his music, it has an energetic feeling to it.
                     <br><br>
                     <a style="color:#4141dd; font-weight:600;" 
@@ -228,7 +228,9 @@
             
         </p>
         <br>
-        <a href="#top">To Top</a><br><br>
+        <a href="#top">To Top</a><br>
+        <a href="#mid">To Middle</a><br>
+        
         <a href="mailto:granth.jain@gmail.com">
         <img src="../../../Misc Resources/email.gif" 
         title="Click to email me at granth.jain@gmail.com" 
