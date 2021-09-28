@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment #15 - Semantic Elements (main)</title>
+
+    <meta charset=“UTF-8”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="../../../styles/scrollbar.css">
+    <link rel="stylesheet" href="../../../styles/assignment.css">
+    <link rel="stylesheet" href="../../../styles/content.css">
+
+    <link rel="icon" href="../../../img/icon.png">
+    <!--Granth Jain, P3, 9/1/2021 -->
+    <style>
+        h2 {
+            text-shadow: 0 0 10px #cccccc, 0 0 20px #8b8b8b, 0 0 30px #00e658, 0 0 40px #00e658, 0 0 50px #00e658, 0 0 60px #00e658, 0 0 70px #00e658;
+        }
+
+        .point {
+            cursor: pointer;
+        }
+
+        .yz {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        #obj {
+            background-color: #ffffff;
+        }
+    </style>
+    <script>
+        var objectobj = document.getElementById('obj');
+        var objActive = null;
+
+        var selfObj = null;
+        var selfTrue = null;
+
+        function loadFunction() {
+            objActive = false;
+            objectobj = document.getElementById('obj');
+
+            selfObj = document.getElementById('selfobj');
+            selfTrue = false;
+        }
+
+        function toggleObject() {
+            if (objActive == true) {
+                objActive = false;
+                objectobj.height = "0vh";
+            } else if (objActive == false) {
+                objActive = true;
+                objectobj.height = "500vh";
+            }
+        }
+
+        function toggleselfObject() { // fix this func
+            if (objActive == true) {
+                objActive = false;
+                objectobj.height = "0vh";
+            } else if (objActive == false) {
+                objActive = true;
+                objectobj.height = "500vh";
+            }
+        }
+    </script>
+</head>
+<div class="navbar" id="navigationBar">
+    <ul>
+        <li><img alt="My website logo" id="iconLogo" class="navbarIcon" src="../../../img/icon.png"></li>
+        <li><a id="homeLink" href="../../../index.html">HOME</a></li>
+        <li><a id="aboutLink" href="../../about.html">ABOUT</a></li>
+        <li><a id="contactLink" href="../../contact.html">CONTACT</a></li>
+    </ul>
+</div>
+
+<body onload="loadFunction()">
+    <br>
+    <br>
+    <br>
+    <div class="homeSection" style="min-height:1.5vh;">
+        Assignment: <span style="font-weight:400">Semantic Elements (#15)</span><br>
+        Date: <span style="font-weight:400">09/28/21</span><br>
+        Author:<span style="font-weight:400"> Granth J.</span><br><br>
+
+        <a class="text-button yz" href="../a14/a14.html">⬅️</a>
+        <a class="text-button yz" href="page.html">➡️</a>
+
+        <br>
+
+        <details>
+            <summary id="selfObj" class="text-button point yz" onclick="toggleselfObj()">👨‍💻 Code</summary>
+            <a class="text-button yz" href="code.txt" target="_blank">🔗 View Code</a>
+            <a class="text-button point yz" onclick="toggleObject()" title="inline-loadcode">🔗 Inline Code</a>
+        </details>
+
+
+        <a class="text-button yz" href="school.html" title="school">2️⃣ Second Page</a>
+
+    </div>
+
+    <br>
+    <object id="obj" data="code.txt" width="100%" height="0vh">Object loading not supported.</object>
+    <br>
+
+    <div class="fake-page" id="contentSection"
+        style="height:100%; display:inline-block; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color:#a1cee9;color:#b91360; font-weight:500;">
+        <header>
+            <h1 top="top"
+                style="text-align:center; font-family: 'Franklin Gothic', sans-serif; color:#4f4dc4; margin-bottom:30px;">
+                All About Me</h1>
+            <h2
+                style="text-align:center; font-family: 'Courier New', Courier, monospace; color:#3b943b; margin-bottom:30px;">
+                &larr; Fall 2021 &rarr;</h2>
+            <br>
+            <nav>
+                <details><summary style="padding-left:10px;">Navigation</summary>
+                    <a href="#top" style="padding-left:50px;">To Top</a><br>
+                    <a href="#mid" style="padding-left:50px;">To Middle</a><br>
+                </details>
+            </nav>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+            <br>
+            
+        </header>
+        
+        <p>
+            <ol class="fake-page-list">
+                <li>My name is <em>Granth</em>.</li>
+                <li>I am <b>16</b> years old, and I'm a senior in highschool right now <u>(as of 8/30/21)</u>.</li>
+                <li>I enjoy <em><b>coding, drawing, sketching, and writing stories</b></em>.</li>
+                <li>I also enjoy cooking, and learning about new things.</li>
+                <li>I love drinking milk tea (hot <b>OR</b> cold)</li>
+            </ol>
+            <br>
+            <hr>
+
+            <br>
+            <h3>My Favorites</h3>
+            <ul>
+                <li><b>Person:</b> Michael Jackson</li>
+
+                <li><b>Place:</b> New York </li>
+
+                <li><b>Subject:</b> Math </li>
+
+                <li><b>Food:</b> Grilled Sandwich </li>
+            </ul><br>
+            <hr>
+
+            <h3>
+                <div class="ccholder"><span style="font-size:50px">Michael Jackson</span>
+                    <a href="https://en.wikipedia.org/wiki/Michael_Jackson" target="_blank">
+                        <img class="cc" src="../../../img/michealjackson.jpg" alt="An image of Michael Jackson"
+                            title="An image of Michael Jackson, hyperlinked to a wikipedia article">
+                    </a>
+
+                    <br><span style="font-weight:500; color:black;" id="mid">
+                        I enjoy listening to his music, it has an energetic feeling to it.
+                        <br><br>
+                        <a style="color:#4141dd; font-weight:600;" href="https://en.wikipedia.org/wiki/Michael_Jackson"
+                            target="_blank">
+                            To learn more about Michael Jackson, click here.</a>
+                    </span>
+                </div>
+            </h3>
+            <hr>
+            <h3>
+                <div class="ccholder"><span style="font-size:50px">New York</span>
+                    <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">
+                        <img class="cc" src="../../../img/newyork.jpg" alt="An image of New York city"
+                            title="An image of New York city, hyperlinked to a wikipedia article">
+                    </a>
+
+                    <br><span style="font-weight:500; color:black;">I used to live in New York, and I really enjoyed the
+                        cold weather and the snow.
+                    </span>
+                    <br><br>
+                    <a style="color:#4141dd; font-weight:600;" href="https://en.wikipedia.org/wiki/New_York_City"
+                        target="_blank">
+                        To learn more about New York City, click here.</a>
+                </div>
+            </h3>
+            <hr>
+            <h3>
+                <div class="ccholder"><span style="font-size:50px">Math</span>
+                    <a href="https://en.wikipedia.org/wiki/Mathematics" target="_blank">
+                        <img class="cc" src="../../../img/math.jpg" alt="An image of math on a blackboard"
+                            title="An image of math on a blackboard, hyperlinked to a wikipedia article">
+                    </a>
+                    <br><span style="font-weight:500; color:black;">
+                        I enjoy doing logic puzzles, and working with numbers, and math is basically both of those.
+                    </span>
+                    <br><br>
+                    <a style="color:#4141dd; font-weight:600;" href="https://en.wikipedia.org/wiki/Mathematics"
+                        target="_blank">
+                        To learn more about Mathematics, click here.</a>
+                </div>
+            </h3>
+            <hr>
+            <h3>
+                <div class="ccholder"><span style="font-size:50px">Grilled Sandwich</span>
+                    <a href="https://en.wikipedia.org/wiki/Grilled_cheese" target="_blank">
+                        <img class="cc" src="../../../img/grilledsandwich.jpg"
+                            alt="An image of a vegetarian grilled sandwich"
+                            title="An image of a vegetarian grilled sandwich, hyperlinked to a wikipedia article">
+                    </a>
+                    <br><span style="font-weight:500; color:black;">
+                        I enjoyed the vegetables grilled along with the buttery bread (grilled as well too).
+                    </span>
+                    <br><br>
+                    <a style="color:#4141dd; font-weight:600;" href="https://en.wikipedia.org/wiki/Grilled_cheese"
+                        target="_blank">
+                        To learn more about the Grilled Sandwich, click here.</a>
+                </div>
+            </h3>
+            <hr>
+
+            <br>
+
+            <br>
+            <h3>My Top 3 Favorite Foods</h3>
+            <ol>
+                <li>Grilled Sandwich</li>
+                <li>Gyros</li>
+                <li>Chips and Salsa</li>
+            </ol>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+            <br>
+            <h3>My Favorites (Descriptive List)</h3>
+            <dl>
+                <dt><b>Person:</b> My younger brother</dt>
+                <dd>I enjoy playing video games with my brother.</dd>
+
+                <dt><b>Place:</b> New York</dt>
+                <dd>I enjoy the weather there, and I enjoy city(ish) areas.</dd>
+
+                <dt><b>Subject:</b> Math</dt>
+                <dd>I love logic, and I love how numbers come together to fit in a huge design known as math.</dd>
+
+                <dt><b>Food:</b> Grilled Sandwich</dt>
+                <dd>I like grilled vegetables, and I also like grilled bread, so put them together, and you get a
+                    grilled sandwich.</dd>
+            </dl>
+            <br>
+            <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+        </p>
+        <br>
+        <aside><a href="https://www.hillsboroughschools.org/sickles" target="_blank">To Walter L Sickles's website</a></aside>
+
+        <a href="mailto:granth.jain@gmail.com">
+            <img src="../../../Misc Resources/email.gif" title="Click to email me at granth.jain@gmail.com"
+                alt="Click to email me at granth.jain@gmail.com"></a>
+        <br>
+        <footer>
+            <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#3f2d6b;">
+                Last Updated &mdash; 09/22/21 &diamondsuit;
+            </address>
+        </footer>
+    </div>
+
+</body>
+
+</html>
