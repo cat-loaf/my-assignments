@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Assignment #15 - Semantic Elements (main)</title>
+    <title>Assignment #16 - Image Path (main)</title>
 
     <meta charset=“UTF-8”>
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
@@ -58,7 +58,7 @@
             }
         }
 
-        function toggleselfObject() { // fix this func
+        function toggleselfObject() { // func is fixed :) 😊😊😊😊
             if (objActive == true) {
                 objActive = false;
                 objectobj.height = "0vh";
@@ -83,12 +83,12 @@
     <br>
     <br>
     <div class="homeSection" style="min-height:1.5vh;">
-        Assignment: <span style="font-weight:400">Semantic Elements (#15)</span><br>
-        Date: <span style="font-weight:400">09/28/21</span><br>
+        Assignment: <span style="font-weight:400">Image Paths (#16)</span><br>
+        Date: <span style="font-weight:400">09/29/21</span><br>
         Author:<span style="font-weight:400"> Granth J.</span><br><br>
 
-        <a class="text-button yz" href="../a14/page.html">⬅️</a>
-        <a class="text-button yz" href="../a16/page.html">➡️</a>
+        <a class="text-button yz" href="../a15/page.html">⬅️</a>
+        <a class="text-button yz" href="page.html">➡️</a>
 
         <br>
 
@@ -253,6 +253,18 @@
 
         </p>
         <br>
+        
+        <h1>Relative Image Paths</h1>
+        <br>
+        
+        <p>This <img width="100px" src="../../../Misc Resources/goat.jpg" alt="baby goat"> is from a Relative Path to an image in the "Me folder".</p>
+        <p>OR... <a style="font-weight: 700;" target="_blank" href="../../../Misc Resources/goat.jpg">CLICK HERE</a> to see the same Baby Goat using a Relative Path to an image in my "Me folder" using an anchor tag with an href attribute.</p>
+
+        <p>This <img width="100px" src="../../../img/pig.jpg" alt="pig"> is from a Relative Path to an image inside the "img folder".</p>
+        <p>OR... <a style="font-weight:700;" target="_blank" href="../../../img/pig.jpg">CLICK HERE</a> to see the same pig using a Relative path to an image in the "img folder" using an anchor tag with an href attribute.</p>
+        <hr style="background-color:white; border:1px black solid; height: 1px;">
+
+        <br>
         <aside>
             <q>This is the coolest website</q><cite> Me - Granth J.</cite> <br>
             <a href="https://www.hillsboroughschools.org/sickles" target="_blank">To Walter L Sickles's website</a>
@@ -264,7 +276,7 @@
         <br>
         <footer>
             <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#3f2d6b;">
-                Last Updated &mdash; 09/28/21 &diamondsuit;
+                Last Updated &mdash; 09/29/21 &diamondsuit;
             </address>
         </footer>
     </div>
