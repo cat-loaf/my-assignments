@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Assignment #16 - Image Path (main)</title>
+    <title>Assignment #17 - Absolute Paths (main)</title>
 
     <meta charset=“UTF-8”>
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
@@ -83,12 +83,12 @@
     <br>
     <br>
     <div class="homeSection" style="min-height:1.5vh;">
-        Assignment: <span style="font-weight:400">Image Paths (#16)</span><br>
-        Date: <span style="font-weight:400">09/29/21</span><br>
+        Assignment: <span style="font-weight:400">Absolute Paths (#17)</span><br>
+        Date: <span style="font-weight:400">09/30/21</span><br>
         Author:<span style="font-weight:400"> Granth J.</span><br><br>
 
-        <a class="text-button yz" href="../a15/page.html">⬅️</a>
-        <a class="text-button yz" href="../a17/page.html">➡️</a>
+        <a class="text-button yz" href="../a16/page.html">⬅️</a>
+        <a class="text-button yz" href="page.html">➡️</a>
 
         <br>
 
@@ -265,6 +265,13 @@
         <hr style="background-color:white; border:1px black solid; height: 1px;">
 
         <br>
+        <h1>Absolute Paths</h1>
+        
+        <br>
+        <p>This <img src="https://organicfeeds.com/wp-content/uploads/2021/03/How-To-Raise-A-Baby-Duck-scaled-1.jpg" style="width:100px;"> is an absolute path to an image on another website</p>
+        <p>And.. <a href="https://organicfeeds.com/wp-content/uploads/2021/03/How-To-Raise-A-Baby-Duck-scaled-1.jpg" style="font-weight:700" target="_blank">CLICK HERE</a> to view the same image in another tab</p>
+
+        <br>
         <aside>
             <q>This is the coolest website</q><cite> Me - Granth J.</cite> <br>
             <a href="https://www.hillsboroughschools.org/sickles" target="_blank">To Walter L Sickles's website</a>
@@ -276,7 +283,7 @@
         <br>
         <footer>
             <address style="text-align:center; font-family:'Courier New', Courier, monospace;color:#3f2d6b;">
-                Last Updated &mdash; 09/29/21 &diamondsuit;
+                Last Updated &mdash; 09/30/21 &diamondsuit;
             </address>
         </footer>
     </div>
